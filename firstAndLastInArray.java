@@ -14,7 +14,7 @@ class Solution {
 
             if (nums[mid] == target) {
                 index = mid;
-                right = mid - 1; // keep searching on the left
+                right = mid - 1; 
             } else if (nums[mid] < target) {
                 left = mid + 1;
             } else {
@@ -34,7 +34,7 @@ class Solution {
 
             if (nums[mid] == target) {
                 index = mid;
-                left = mid + 1; // keep searching on the right
+                left = mid + 1; 
             } else if (nums[mid] < target) {
                 left = mid + 1;
             } else {
