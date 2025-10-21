@@ -2,6 +2,8 @@ class Solution {
     public int thirdMax(int[] nums) {
         Long first = null, second = null, third = null;
         for(int num: nums){
+          
+          
             long n = num;
             if((first!=null && n==first) || 
             (second!=null && n==second) || 
